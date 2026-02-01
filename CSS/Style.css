@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-color: #000000;
+    --nav-color: #ffffff;
+    --primary-color: #acb8c099;
+    --secondary-color: #ffffff;
+    --font-family: 'Arial, sans-serif';
+    --fond-size-Header: 28px;
+    --font-size-title: 24px;
+    --font-size-body: 20px;
+    --line-height: 1.5;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--fond-size-Header);
+    line-height: var(--line-height);
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+nav {
+    font-size: larger;
+    background-color: var(--nav-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+.nav-list {
+    font-family: var(--font-family);
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header.Encabezado {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/Figura_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section .contenido {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    text-align: justify;
+    flex-direction: column;
+    padding: 150px 100px;
+    align-items: center;
+    margin: 150px auto;
+    max-width: 800px
+}
+article {
+    font-size: var(--font-size-title);
+    font-weight: normal;
+    color: var(--font-color);
+    margin: 150px;
+    margin-bottom: 2rem;
+    align-content: center;
+}
+article p {
+    font-size: var(--font-size-body);
+    color: var(--font-color);
+    text-align: justify;
+}
+table {
+    border: #000000 solid 1px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+th, td {
+    border: #000000 solid 1px;
+    padding: 10px;
+    text-align: left;
+}
+th:hover {
+    background-color: var(--secondary-color);
+}
