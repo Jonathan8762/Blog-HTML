@@ -8,18 +8,19 @@ El sistema sigue un modelo de separación de responsabilidades para garantizar l
 
 Estructura (HTML5): Uso de etiquetas semánticas (<main>, <article>, <nav>, <footer>) para optimizar el SEO y la accesibilidad.
 
-Estilos (CSS3): Diseño basado en Variables CSS (Custom Properties) para una gestión centralizada de colores y tipografías. Implementa un diseño responsivo mediante Flexbox y Media Queries.
+Estilos: Diseño basado en Variables CSS (Custom Properties) para una gestión centralizada de colores y tipografías. Implementa un diseño responsivo mediante Flexbox y Media Queries.
 
-Lógica (Vanilla JavaScript): Sistema modular para la navegación. La lógica del menú lateral se encuentra aislada en JS/sidebar.js.
+Lógica: Sistema modular para la navegación. La lógica del menú lateral se encuentra aislada en JS/barralateral.js.
 
 📂 Estructura de Archivos
 
 /
+├── Blog1.html          # Blog Principal
 ├── index.html          # Punto de entrada principal
 ├── /CSS
 │   └── style.css       # Hoja de estilos global
 ├── /JS
-│   └── sidebar.js      # Lógica del menú lateral interactivo
+│   └── barralateral.js      # Lógica del menú lateral interactivo
 ├── /docs               # Documentación técnica adicional
 │   └── COOKBOOK.md     # Guía rápida de preparación
 └── /IMG                # Recursos multimedia

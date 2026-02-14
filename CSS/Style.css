@@ -277,3 +277,49 @@ footer {
     font-size: 14px;
     color: #95a5a6;
 }
+/* Estilos para la lista de blogs */
+.blog-list {
+    display: flex;
+    flex-direction: column; /* Los pone uno debajo del otro como lista */
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    background: #f9f9f9;
+    border-left: 5px solid #2c3e50; /* Un detalle de color al lado */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.blog-card:hover {
+    transform: scale(1.02); /* Efecto visual al pasar el mouse */
+}
+
+.categoria {
+    font-size: 0.8rem;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blog-card h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.btn-leer {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.btn-leer:hover {
+    text-decoration: underline;
+}
