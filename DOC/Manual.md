@@ -19,7 +19,7 @@ Siga estos pasos exactos para preparar el sistema:
 
 Obtener el código:
 
-Clonar el repositorio: git clone [URL_DEL_REPOSITORIO]
+Clonar el repositorio: git clone [https://github.com/Jonathan8762/Blog-HTML]
 
 O descargar y extraer el archivo .zip.
 
