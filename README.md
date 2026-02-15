@@ -52,4 +52,4 @@ Este proyecto se gestionó mediante un tablero en Jira, dividiendo el desarrollo
 https://martinezpauthjonathanenmanuel.atlassian.net/jira/software/projects/SCRUM/boards/1
 
 Desarrollado por: Jonathan
-Materia: Filosofía del Software / Programación Web
+Materia: Ingenieria Siftware
