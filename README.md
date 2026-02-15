@@ -49,6 +49,7 @@ Interactividad: El menú lateral ha sido probado en resoluciones móviles y de e
 📈 Metodología Scrum
 
 Este proyecto se gestionó mediante un tablero en Jira, dividiendo el desarrollo en historias de usuario centradas en la experiencia del lector y la optimización del código.
+https://martinezpauthjonathanenmanuel.atlassian.net/jira/software/projects/SCRUM/boards/1
 
 Desarrollado por: Jonathan
-Materia: Filosofía del Software / Programación Web
+Materia: Ingenieria Siftware
