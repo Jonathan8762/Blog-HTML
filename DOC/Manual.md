@@ -5,7 +5,7 @@ Versión: 1.0
 
 Este manual describe los pasos necesarios para preparar y ejecutar el blog en un entorno local.
 
-1. Ingredientes (Requisitos)
+1. Requisitos
 
 Un navegador web moderno (Google Chrome, Firefox, Brave o Edge).
 
@@ -13,7 +13,7 @@ Un editor de código (recomendado: VS Code) para realizar modificaciones.
 
 Conexión a internet (solo para cargar fuentes externas si se agregan).
 
-2. Preparación (Instalación)
+2. Instalación
 
 Siga estos pasos exactos para preparar el sistema:
 
@@ -31,7 +31,7 @@ index.html
 ├── JS/menulateral.js
 
 
-3. Cocción (Ejecución)
+3. Ejecución
 
 Para ver el blog funcionando:
 
