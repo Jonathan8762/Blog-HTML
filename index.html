@@ -1,60 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Blog</title>
-    <link rel="stylesheet" href="CSS/style.css">
 
+    <!-- Enlace al archivo de estilos -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+
+    <!-- ============================= -->
+    <!-- NAVBAR - Navegación básica -->
+    <!-- ============================= -->
     <nav>
         <div class="logo">Biblioteca de Blogs</div>
+
+        <!-- Menú de navegación -->
         <ul class="nav-list">
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
-<main>
-    <header class="Encabezado" id="inicio">
-        <h1>Registro de BLOGS</h1>
-        <p id="descripcion">Catálogo General</p>
-    </header>
 
-    <section class="blog-list">   
-        <article class="blog-card">
-            <div class="blog-info">
-                <span class="categoria">Religión e Historia</span>
-                <h2>Cristianismo e Islam: El Reloj de la Historia</h2>
-                <p>Un análisis comparativo sobre la evolución, la secularización y la percepción de las religiones abrahámicas en la historia.</p>
-                <a href="Blog1.html" class="btn-leer">Leer entrada</a>
-            </div>
-        </article>
+    <main>
+
+        <!-- ============================= -->
+        <!-- ENCABEZADO PRINCIPAL -->
+        <!-- Mostrar título y descripción -->
+        <!-- ============================= -->
+        <header class="Encabezado" id="inicio">
+            <h1>Registro de BLOGS</h1>
+            <p id="descripcion">Catálogo General</p>
+        </header>
+
+        <!-- ============================= -->
+        <!-- SECCIÓN: LISTA DE BLOGS -->
+        <!-- Cada blog se representa como un artículo con su categoría, título, descripción y enlace para leer más."
+        -->
+        <!-- ============================= -->
+        <section class="blog-list">   
+
+            <!-- Blog individual -->
+            <!-- Cada <article> representa una entrada -->
+            <article class="blog-card">
+
+                <div class="blog-info">
+
+                    <!-- Categoría del blog -->
+                    <span class="categoria">Religión e Historia</span>
+
+                    <!-- Título del blog -->
+                    <h2>Cristianismo e Islam: El Reloj de la Historia</h2>
+
+                    <!-- Descripción corta -->
+                    <p>
+                        Un análisis comparativo sobre la evolución, la secularización 
+                        y la percepción de las religiones abrahámicas en la historia.
+                    </p>
+
+                    <!-- Botón para leer la entrada completa -->
+                    <a href="Blog1.html" class="btn-leer">Leer entrada</a>
+
+                </div>
+            </article>
 
         </section>
- </main>
+
+    </main>
+
+    <!-- ============================= -->
+    <!-- FOOTER Información básica -->
+    <!-- ============================= -->
     <footer id="contacto">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h4>Blogs Jonathan</h4>
-            <li><a href="Blog1.html">Religión e Historia</a></li>
+
+        <div class="footer-content">
+
+            <!-- Sección de blogs -->
+            <div class="footer-section">
+                <h4>Blogs Jonathan</h4>
+                <ul>
+                    <li><a href="Blog1.html">Religión e Historia</a></li>
+                </ul>
+            </div>
+
+            <!-- Navegación interna -->
+            <div class="footer-section">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="DOC/Más Allá del Velo y la Espada.pdf">
+                        Documentación
+                    </a></li>
+                </ul>
+            </div>
+
+            <!-- Información de contacto -->
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: est.jpauthm0301@uml.edu.ni</p>
+                <p>Ubicación: Jalapa, Nicaragua</p>
+            </div>
 
         </div>
-        <div class="footer-section">
-            <h4>Navegación</h4>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="DOC/Más Allá del Velo y la Espada.pdf">Documentación</a></li>
-            </ul>
+
+        <!-- Derechos reservados -->
+        <div class="footer-bottom">
+            &copy; 2026 Blog Jonathan - Proyecto Universitario Scrum
         </div>
-        <div class="footer-section">
-            <h4>Contacto</h4>
-            <p>Email: est.jpauthm0301@uml.edu.ni</p>
-            <p>Ubicación: Jalapa, Nicaragua</p>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        &copy; 2026 Blog Jonathan - Proyecto Universitario Scrum
-    </div>
+
     </footer>
+
 </body>
 </html>

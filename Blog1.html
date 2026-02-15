@@ -9,35 +9,82 @@
 </head>
 <body>
 
-    <nav>
-        <button class="open-btn" onclick="menulateral()">☰ Menú</button>
-        <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="close-btn" onclick="menulateral()">×</a>
+<!-- NAVBAR PRINCIPAL DEL BLOG -->
+<!-- Incluye botón para abrir menú lateral -->
+<nav>
+
+    <!-- Botón que abre el menú lateral -->
+    <!-- Funciona con la función JavaScript: menulateral() -->
+    <button class="open-btn" onclick="menulateral()">☰</button>
+
+    <!-- ===================================== -->
+    <!-- MENÚ LATERAL (Sidebar) -->
+    <!-- Contiene índice interno del blog -->
+    <!-- Permite navegar por secciones del artículo -->
+    <!-- ===================================== -->
+    <div id="mySidebar" class="sidebar">
+
+        <!-- Botón para cerrar el menú lateral -->
+        <a href="javascript:void(0)" class="close-btn" onclick="menulateral()">x</a>
+
+        <!-- Título del menú lateral -->
         <div class="sidebar-header">Contenido</div>
+
+        <!-- Enlaces internos del blog (Anclas) -->
+        <!-- Cada enlace lleva a un encabezado del artículo -->
         <a href="#titulo1" onclick="menulateral()">1. Introducción</a>
         <a href="#titulo2" onclick="menulateral()">2. Raíces Abrahámicas</a>
         <a href="#titulo3" onclick="menulateral()">3. Tabla Comparativa</a>
         <a href="#titulo4" onclick="menulateral()">4. "Ahl al-Kitab": La Gente del Libro</a>
-        <a href="#titulo5" onclick="menulateral()">5. El Reloj de la Historia: ¿Es el Islam el Cristianismo de hace 600 años?</a>
-        <a href="#titulo6" onclick="menulateral()">6. ¿Por qué el Hinduismo o Budismo gozan de una imagen "pacífica" en Occidente mientras el Islam no?</a>
+        <a href="#titulo5" onclick="menulateral()">5. El Reloj de la Historia</a>
+        <a href="#titulo6" onclick="menulateral()">6. Percepción del Islam en Occidente</a>
 
         <hr>
-        <div class="sidebar-header">Documentación</div>
-         <a href="DOC/Más Allá del Velo y la Espada.pdf" onclick="menulateral()">Más Allá del Velo y la Espada<br>Aut.Jonathan Enmanuel Pauth</a>
-        </div>
-        <div class="logo">BLOG JONATHAN</div>
-        <ul class="nav-list">
-            <li><a href="#inicio">Inicio</a>
-            <li><a href="Index.html">Biblioteca</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
 
-    <main>
-        <header class="Encabezado" id="inicio">
-            <h1>BIENVENIDOS A MI BLOG PERSONAL<br>Más Allá del Velo y la Espada</h1>
-            <p id="descripcion">Un análisis sobre las raíces, el tiempo y la percepción del Islam y Occidente</p>
-        </header>
+        <!-- Sección de documentación adicional -->
+        <div class="sidebar-header">Documentación</div>
+
+        <!-- Enlace a documento PDF del blog -->
+        <a href="DOC/Más Allá del Velo y la Espada.pdf" onclick="menulateral()">
+            Más Allá del Velo y la Espada<br>
+            Aut. Jonathan Enmanuel Pauth
+        </a>
+
+    </div>
+    <!-- LOGO O IDENTIFICACIÓN DEL BLOG -->
+    <!-- ===================================== -->
+    <div class="logo">BLOG JONATHAN</div>
+
+    <!-- MENÚ DE NAVEGACIÓN SUPERIOR -->
+    <!-- Enlaces principales del sitio -->
+    <!-- ===================================== -->
+    <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="Index.html">Biblioteca</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+</nav>
+
+<!-- CONTENIDO PRINCIPAL DEL BLOG -->
+<main>
+    <!-- ENCABEZADO PRINCIPAL DEL ARTÍCULO -->
+    <!-- Contiene título y descripción -->
+    <!-- ===================================== -->
+    <header class="Encabezado" id="inicio">
+
+        <!-- Título principal del blog -->
+        <h1>
+            BIENVENIDOS A MI BLOG PERSONAL<br>
+            Más Allá del Velo y la Espada
+        </h1>
+
+        <!-- Descripción o subtítulo del artículo -->
+        <p id="descripcion">
+            Un análisis sobre las raíces, el tiempo y la percepción del Islam y Occidente
+        </p>
+
+    </header>
 
         <section class="contenido" id="titulo1">
             <article>

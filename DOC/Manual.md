@@ -1,6 +1,9 @@
-Cookbook: Preparación del Entorno
+Proyecto: Blog Biblioteca
+Documento: Preparación del Entorno
+Autor: Jonathan Pauth
+Versión: 1.0
 
-Este manual describe los pasos necesarios para desplegar y preparar el entorno de desarrollo del blog.
+Este manual describe los pasos necesarios para preparar y ejecutar el blog en un entorno local.
 
 1. Ingredientes (Requisitos)
 
@@ -25,7 +28,7 @@ Asegúrese de que los archivos mantengan esta jerarquía:
 
 index.html
 ├── CSS/style.css
-├── JS/sidebar.js
+├── JS/menulateral.js
 
 
 3. Cocción (Ejecución)

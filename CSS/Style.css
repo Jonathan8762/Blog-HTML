@@ -47,7 +47,7 @@ nav {
   font-weight: bold;
   color: var(--accent-color);
   text-transform: uppercase;
-  margin-left: 60px;
+  margin-left: 0%;
 }
 
 .nav-list {
